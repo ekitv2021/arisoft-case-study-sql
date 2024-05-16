@@ -1,10 +1,11 @@
-# Case Study Problem Statement:
+# Arisoft Case Study 
+## Problem Statement
 ARISOFT Corporation is a global company specializing in the distribution of various products. The company maintains a relational database to manage information about its customers, employees, offices, orders, payments, product lines, and products. As a database administrator at ARISOFT Corporation, you are tasked with designing and implementing several SQL queries and operations to address specific business requirements. Your goal is to ensure the integrity of the data and provide valuable insights for decision-making. Please consider the following scenarios:
 
-## Customer Credit Limit Update:
+### Customer Credit Limit Update:
 ARISOFT Corporation wants to implement a system where the credit limit of a customer is automatically updated based on the total amount of payments received for that customer. Design an SQL query or procedure to calculate the total payments received for each customer and update their credit limit accordingly.
 
-```SQL delimiter $
+```sql delimiter $
 create procedure UpdateCustomerCreditLimit()
 begin
 update customers c
@@ -17,7 +18,7 @@ end$
 call UpdateCustomerCreditLimit();
 ```
 
-## Employee Promotion Check:
+### Employee Promotion Check:
 ARISOFT Corporation wants to identify employees who are eligible for promotion based on their job performance. Create an SQL query or procedure to check if an employee has achieved a specified sales target (consider the orders and orderdetails tables) and, if so, update their job title to indicate a promotion.
 
 ```SQL delimiter $
