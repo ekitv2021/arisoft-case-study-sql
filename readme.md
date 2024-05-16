@@ -14,7 +14,8 @@ set creditlimit =
     where c.customernumber = p.customernumber);
 end$
 
-call UpdateCustomerCreditLimit();```
+call UpdateCustomerCreditLimit();
+```
 
 ## Employee Promotion Check:
 ARISOFT Corporation wants to identify employees who are eligible for promotion based on their job performance. Create an SQL query or procedure to check if an employee has achieved a specified sales target (consider the orders and orderdetails tables) and, if so, update their job title to indicate a promotion.
@@ -41,7 +42,8 @@ end$
     
 call CheckEmployeePromotion(600000);
 
-select * from employees;```
+select * from employees;
+```
 
 ## Office Territory Update:
 The territories assigned to each office need to be updated based on the country of the office location. Design an SQL query or procedure to automatically assign the correct territory code to each office based on its country. Use the offices table for this operation.
